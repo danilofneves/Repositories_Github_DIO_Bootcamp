@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@+id/ListUserFragment">
+
+    <fragment
+        android:id="@+id/ListUserFragment"
+        android:name="com.dio.repositoriesgithub.presentation.ui.repository.RepositoryFragment"
+        android:label="list_user_fragment"
+        tools:layout="@layout/fragment_repo">
+    </fragment>
+
+</navigation>
